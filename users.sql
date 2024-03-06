@@ -1,41 +1,11 @@
-CREATE table users (
-  id_user INT AUTO_INCREMENT PRIMARY KEY, 
-  nama VARCHAR(255) NOT NULL, 
-  pelajaran VARCHAR(50) NOT NULL, 
-  nilai INT NOT NULL, 
-  tanggal TIMESTAMP DEFAULT NULL
-);
-INSERT INTO users (nama, pelajaran, nilai, tanggal) 
-VALUES 
-  (
-    'Budi Setiawan', 'Matematika', 90, 
-    '2022-03-09'
-  ), 
-  (
-    'Siti Rahayu', 'Matematika', 
-    85, '2022-03-09'
-  ), 
-  (
-    'Ahmad Prabowo', 'Matematika', 78, '2022-03-08'
-  ), 
-  (
-    'Dewi Kusuma', 'Matematika', 95, '2022-03-08'
-  ), 
-  (
-    'Iwan Santoso', 'Fisika', 88, '2022-03-06'
-  ), 
-  (
-    'Anita Susanti','Fisika', 75, '2022-03-02'
-  ), 
-  (
-    'Joko Widodo', 'Fisika', 92, '2022-03-06'
-  ), 
-  (
-    'Ratna Dewi','Kimia', 87, '2022-03-03'
-  ), 
-  (
-    'Surya Pratama', 'Kimia', 80, '2022-03-03'
-  ), 
-  (
-    'Dian Sari', 'Kimia', 96, '2022-03-04'
-  );
+  INSERT INTO `products` (`id`, `nama`, `harga`, `stok`, `tanggal_ditambahkan`) VALUES
+  (1, 'Lenovo', '1200.00', 50, '2022-03-03 17:00:00'),
+  (2, 'Smartphone Samsung', '1200.00', 100, '2022-03-02 17:00:00'),
+  (3, 'HP', '1200.00', 20, '2022-03-03 17:00:00'),
+  (4, 'Mouse', '100.00', 150, '2022-03-03 17:00:00'),
+  (5, 'Headphone', '100.00', 80, '2022-03-03 17:00:00'),
+  (6, 'asus', '1200.00', 30, '2022-03-03 17:00:00'),
+  (7, 'Kamer', '800.00', 40, '2022-03-06 17:00:00'),
+  (8, 'MODEM', '60.00', 60, '2022-03-07 17:00:00'),
+  (9, 'Speaker', '80.00', 50, '2022-03-08 17:00:00'),
+  (10, 'Keyboard', '50.00', 70, '2022-03-09 17:00:00');
