@@ -1,11 +1,18 @@
-  INSERT INTO `products` (`id`, `nama`, `harga`, `stok`, `tanggal_ditambahkan`) VALUES
-  (1, 'Lenovo', '1200.00', 50, '2022-03-03 17:00:00'),
-  (2, 'Smartphone Samsung', '1200.00', 100, '2022-03-02 17:00:00'),
-  (3, 'HP', '1200.00', 20, '2022-03-03 17:00:00'),
-  (4, 'Mouse', '100.00', 150, '2022-03-03 17:00:00'),
-  (5, 'Headphone', '100.00', 80, '2022-03-03 17:00:00'),
-  (6, 'asus', '1200.00', 30, '2022-03-03 17:00:00'),
-  (7, 'Kamer', '800.00', 40, '2022-03-06 17:00:00'),
-  (8, 'MODEM', '60.00', 60, '2022-03-07 17:00:00'),
-  (9, 'Speaker', '80.00', 50, '2022-03-08 17:00:00'),
-  (10, 'Keyboard', '50.00', 70, '2022-03-09 17:00:00');
+INSERT INTO `kelas` (`id`, `kelas`) VALUES
+(1, 'RPL 1'),
+(2, 'RPL 2'),
+(3, 'RPL 3'),
+(4, 'RPL 4'),
+(5, 'RPL 5');
+
+
+INSERT INTO `siswa` (`id`, `nama`, `umur`, `kelas_id`) VALUES
+(1, ' Chantika', 16, 1),
+(2, 'Reza ', 16, 2),
+(3, 'Alifah Diyan', 16, 2),
+(4, 'Reval Meilih', 16, 1),
+(5, 'Ratu Regita', 16, 2),
+(6, 'aref yuliana', 16, 3),
+(7, 'Rafie', 16, 1),
+(8, 'AHMAD ', 16, 2),
+(9, 'Rizky Trisno', 16, 4);
