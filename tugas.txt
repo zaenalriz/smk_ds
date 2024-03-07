@@ -1,0 +1,11 @@
+latihan 1 pertemuan 3
+
+1.tampilkan data nilai untuk pelajaran kimia,fisika dan nilai nya di atas 80
+
+2.tampilkan data nilai untuk semua pelajaran kecuali matematika dan nilai nya di atas 80 
+
+3.tampilkan 1 data  nilai users paling terbesar di pelajaran fisika
+
+4.tampilkan 1 data nilai users paling terkecil di pelajaran Matematika
+
+5.tampilkan 3 data nilai terbesar yang bukan fisika,kimia 
