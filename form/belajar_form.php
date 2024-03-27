@@ -1,3 +1,9 @@
+<?php 
+// http://localhost/smk_ds/form/belajar_form.php
+if(isset($_GET['id'])){
+    echo $_GET['id'];
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,9 +14,14 @@
 </head>
 
 <body>
-    <form action="get.php" method="get">
+    <form action="" method="get">
         <label for="">id</label>
         <input type="text" name="id">
+        <select name="mapel">
+            <option value="">pilih mapel</option>
+            <option value="matematika">matematika</option>
+            <option value="fisika">fisika</option>
+        </select>
         <button>kirim</button>
     </form>
 </body>

@@ -36,6 +36,8 @@ $multiArray = array(
     array('nama' => 'eko', 'kelas' => 'RPL'),
     array('nama' => 'ferdi', 'kelas' => 'ANIMASI'),
 );
+
+
 foreach ($multiArray as $key => $value) {
     echo $value['nama'] . "<br>";
     echo $value['kelas'] . "<br>";
