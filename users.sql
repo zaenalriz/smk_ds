@@ -16,3 +16,10 @@ INSERT INTO `siswa` (`id`, `nama`, `umur`, `kelas_id`) VALUES
 (7, 'Rafie', 16, 1),
 (8, 'AHMAD ', 16, 2),
 (9, 'Rizky Trisno', 16, 4);
+
+
+CREATE TABLE `user_admin` (
+    `id` INT AUTO_INCREMENT PRIMARY KEY,
+    `username` VARCHAR(50) NOT NULL UNIQUE,
+    `password` VARCHAR(255) NOT NULL
+);
